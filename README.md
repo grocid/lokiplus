@@ -1,5 +1,7 @@
 # Elementary OS Loki
 
+![screen](imgs/lokip.png)
+
 ## Keyboard mapping
 I come from the world of macOS and is used to a swap between `CTRL` and `SUPER`.
 
