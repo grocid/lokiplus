@@ -1,0 +1,10 @@
+# Hashes of file build rules.
+087908e70d8aed790d9334db8b28bb97 CMakeFiles/dist
+d926d90ec5c18a8b255eb9474d683a27 CMakeFiles/distcheck
+4206d3f02051a7d2701df771d143b06d CMakeFiles/uninstall
+d3dd1cca6ff3a369a2b91deb18ca81f1 lib/config.c
+98c9ca5d69f642ac81d5e083cab9135e lib/wingpanel-2.0_valac.stamp
+a899bcc62fef8e44da91d4242ce902fa src/Wingpanel.c
+560202b45f3a94b5601343f90ab5761f src/wingpanel_valac.stamp
+0aab098d960593e5cf0483677f4e0c05 wingpanel-interface/Main.c
+ead24fd25ff15bd17d8c090e7ea09673 wingpanel-interface/wingpanel-interface_valac.stamp
