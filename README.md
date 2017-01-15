@@ -24,6 +24,8 @@ Run
 
 ## IRC Client
 
+This is my slightly modified [Relay](https://github.com/grocid/relay2):
+
 ![irc](imgs/irc.png)
 
 ## Wingpanel
@@ -37,3 +39,13 @@ So, I decided to remove it. Also, I put the time and date indicator on the right
 ## Wallpapers
 
 ![wallpapers](imgs/walls.png)
+
+##Applications
+
+[Harmony](http://getharmony.xyz/) is a great replacement app for the stock music player. I listen to Soundcloud a lot and this allows me to control everything with my media keys.
+
+[Sublime Text](https://www.sublimetext.com/) is a perfect replacement for TextMate (also a great app on macOS). It seems much more lightweight than e.g. Atom. I code a lot of Python from time to time and Sublime Text has builtin console, so I can run the code without leaving the editor.
+
+[Sage](http://www.sagemath.org/) is a mathematical framework that integrates well with Python. Very useful for doing those crypto challenges on CTFs.
+
+[]
