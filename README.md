@@ -42,10 +42,15 @@ So, I decided to remove it. Also, I put the time and date indicator on the right
 
 ##Applications
 
+[Albert](https://github.com/albertlauncher/albert) is an application launcher, which resembles Spotlight in macOS. It is pretty fast and customizable.
+
 [Harmony](http://getharmony.xyz/) is a great replacement app for the stock music player. I listen to Soundcloud a lot and this allows me to control everything with my media keys.
 
 [Sublime Text](https://www.sublimetext.com/) is a perfect replacement for TextMate (also a great app on macOS). It seems much more lightweight than e.g. Atom. I code a lot of Python from time to time and Sublime Text has builtin console, so I can run the code without leaving the editor.
 
 [Sage](http://www.sagemath.org/) is a mathematical framework that integrates well with Python. Very useful for doing those crypto challenges on CTFs.
 
-[]
+[Z3](https://github.com/Z3Prover/z3) is a solver and theorem prover, highly useful when dealing with complex expressions. Can be used in many ways in reverse engineering, but also for finding satisfying solutions to those involved crypto challenges.
+
+[Baobab](https://wiki.gnome.org/Apps/Baobab) (Gnome Disk Usage Analyzer) is a pretty visualization tool for disk usage. 
+
