@@ -1,0 +1,36 @@
+#!/usr/bin/env bash
+
+vagrant_call () {
+
+	CUR_DIR="$PWD"
+	NEW_DIR="${HOME}/Maskiner/Vagrant/$1"
+
+	if [ -d $NEW_DIR ]; then
+
+		if [ -f "${NEW_DIR}/name" ]; then
+			NAME=$(cat "${NEW_DIR}/name" )
+		else
+			NAME="$1"
+		fi
+
+		cd "$NEW_DIR"
+
+		if [ -z "$2" ]; then
+			#WIDTH=$(gsettings get org.pantheon.terminal.saved-state window-width)
+			notify-send 'Virtuell maskin' "Ansluten till maskin ${NAME}." --icon=dialog-information
+			#gsettings set org.pantheon.terminal.settings background "rgba(37, 46, 50, 0.90)"
+			#echo -e "\033[01;30m──────────────────────────────────────────────" 
+			echo -e "\033[00;36m"
+			vagrant ssh
+			echo -e "\033[00m"
+			#gsettings set org.pantheon.terminal.settings background "rgba(37, 46, 50, 0.95)"
+		else
+			notify-send 'Virtuell maskin' "Startar maskin ${NAME}." --icon=dialog-information
+			vagrant up > /dev/null 2>&1
+		fi
+	fi
+
+	cd $CUR_DIR
+}
+
+vagrant_call $1 $2
